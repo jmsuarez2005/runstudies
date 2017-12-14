@@ -10,13 +10,11 @@ import { AngularFirestoreModule } from 'angularfire2/firestore'
 import { AngularFireAuthModule } from 'angularfire2/auth'
 
 import { AppComponent } from './app.component';
-import { CfgEntidaComponent } from './modules/common/model/cfg-entida/cfg-entida.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CfgEntidaComponent
+    AppComponent
   ],
   imports: [
     MDBBootstrapModule.forRoot(),
