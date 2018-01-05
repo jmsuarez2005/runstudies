@@ -1,0 +1,32 @@
+[debug] [2018-01-05T02:30:35.528Z] ----------------------------------------------------------------------
+[debug] [2018-01-05T02:30:35.530Z] Command:       /usr/local/Cellar/node/8.9.1/bin/node /usr/local/bin/firebase serve
+[debug] [2018-01-05T02:30:35.530Z] CLI Version:   3.16.0
+[debug] [2018-01-05T02:30:35.530Z] Platform:      darwin
+[debug] [2018-01-05T02:30:35.530Z] Node Version:  v8.9.1
+[debug] [2018-01-05T02:30:35.530Z] Time:          Thu Jan 04 2018 21:30:35 GMT-0500 (-05)
+[debug] [2018-01-05T02:30:35.530Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-05T02:30:35.540Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-05T02:30:35.540Z] > authorizing via signed-in user
+[debug] [2018-01-05T02:30:35.542Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/runstudies  
+  
+ Thu Jan 04 2018 21:30:35 GMT-0500 (-05)
+[debug] [2018-01-05T02:30:36.552Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-05T02:30:36.553Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/runstudies/tokens  
+  
+ Thu Jan 04 2018 21:30:36 GMT-0500 (-05)
+[debug] [2018-01-05T02:30:37.445Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jmsuarez/Documentos/Proyectos/web/runstudies'...
+[info] 
+[debug] [2018-01-05T02:30:37.449Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/runstudies  
+  
+ Thu Jan 04 2018 21:30:37 GMT-0500 (-05)
+[debug] [2018-01-05T02:30:38.265Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-05T02:30:38.268Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1000328689637/clients/_:getWebAppConfig  
+  
+ Thu Jan 04 2018 21:30:38 GMT-0500 (-05)
+[debug] [2018-01-05T02:30:39.225Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] ✔  hosting: Local server: http://localhost:5000
+
