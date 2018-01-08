@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://bitbucket.org/jmsuarez/runstudies.git
+	fetch = +refs/*:refs/*
+	mirror = true
+	pushurl = git@github.com:jmsuarez2005/runstudies.git
