@@ -1,22 +1,22 @@
 import { Injectable } from '@angular/core';
-import { AbstractService } from "../../common/service/abstractservice";
-import { SegUsuarioDAO } from "../dao/segusuariodao";
-import { AbstractDAO } from "../../common/dao/abstractdao";
+import { AbstractService } from '../../common/service/abstractservice';
+import { SegUsuarioDAO } from '../dao/segusuariodao';
+import { AbstractDAO } from '../../common/dao/abstractdao';
 
-import { SegUsuario } from "../model/segusuario"
+import { SegUsuario } from '../model/segusuario';
 
 
 @Injectable()
-export class SegusuarioService extends AbstractService<SegUsuario>{
+export class SegUsuarioService extends AbstractService<SegUsuario> {
 
-  constructor() { 
+  constructor() {
     super();
   }
 
   segUsuarioDAO = new SegUsuarioDAO(null);
-  
+
   public getAbstractDAO(): AbstractDAO<SegUsuario> {
-      return this.segUsuarioDAO;
+    return this.segUsuarioDAO;
   }
 
 }

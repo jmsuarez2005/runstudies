@@ -1,6 +1,6 @@
 import { AbstractDAO } from '../dao/abstractdao';
 import { Entidad } from '../model/entidad';
-import { Observable } from 'rxjs/Observable'
+import { Observable } from 'rxjs/Observable';
 
 
 export abstract class AbstractService<T extends Entidad> {
