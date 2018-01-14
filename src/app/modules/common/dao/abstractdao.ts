@@ -1,5 +1,5 @@
 import { Entidad } from '../model/entidad';
-import { AngularFirestore, AngularFirestoreCollection } from 'angularfire2/firestore'
+import { AngularFirestore, AngularFirestoreCollection } from 'angularfire2/firestore';
 import { Observable } from 'rxjs/Observable';
 
 export abstract class AbstractDAO<T extends Entidad> {
