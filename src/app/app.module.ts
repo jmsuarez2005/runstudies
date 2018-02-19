@@ -10,10 +10,16 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './modules/home/home.component';
+import { FooterComponent } from './modules/footer/footer.component';
+import { NavbarComponent } from './modules/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     MDBBootstrapModule.forRoot(),

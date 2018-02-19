@@ -1,40 +1,25 @@
 <header>
-    <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" [containerInside]="false">
-        <logo>
-            <a class="logo navbar-brand" href="#">
-                <strong>RunStudies</strong>
-            </a>
-        </logo>
-        <links>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active waves-light" mdbRippleRadius>
-                </li>
-            </ul>
-        </links>
-    </mdb-navbar>
-    <!-- Main -->
-    <div class="view intro hm-purple-light" >
-        <div class="full-bg-img flex-center">
-            <div class="container text-center white-text wow fadeInUp">
-                <h2>Nos encontramos construyendo, esperen noticias pronto.</h2>
-            </div>
-        </div>
-    </div>
-    <!-- /.Main -->
+    <!-- Directiva Navbar en el modulo modules/navbar -->
+    <app-navbar></app-navbar>
 </header>
 <!--Main Navigation-->
 
 <!--Main Layout-->
 <main class="text-center py-5">
+    
+    <!-- <div class="container"> -->
+    <!-- <div class="row">
+        <div class="col-md-12">
+            <p align="justify"></p> -->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p align="justify"></p>
+            <!-- Directiva pagina de inicio modules/home -->
+            <app-home></app-home>
 
-            </div>
-        </div>
-    </div>
-
+     <!--    </div>
+    </div> -->
+    <!-- </div> -->
 </main>
 <!--Main Layout-->
+
+<!-- Directiva footer en el modules/footer -->
+<app-footer></app-footer>
