@@ -5,8 +5,19 @@
     </a>
   </logo>
   <links>
-    <form class="form-inline waves-light waves-light ml-auto" mdbRippleRadius>
-      <button class="btn btn-outline-default btn-sm my-0 waves-light" type="submit" mdbRippleRadius>Autenticarse</button>
-    </form>
+    <ul class="navbar-nav mr-auto">
+
+    </ul>
+    <ul class="navbar-nav nav-flex-icons">
+      <li class="nav-item waves-light" mdbRippleRadius>
+        <a class="nav-link">
+          <i class="fa fa-flag"></i>
+        </a>
+      </li>
+      <li class="nav-item waves-light" mdbRippleRadius>
+        <a class="nav-link" (click)="open()">
+          <i class="fa fa-login" mdbRippleRadius></i>Autenticarse</a>
+      </li>
+    </ul>
   </links>
 </mdb-navbar>

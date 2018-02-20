@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent {
+  @ViewChild('formModal') public formModal;
+
+  clickMessage = '';
 
   constructor() { }
 
-  ngOnInit() {
+  open(event) {
+    this.formModal.show();
+    console.log(this.clickMessage = 'Hello Word');
   }
-
 }

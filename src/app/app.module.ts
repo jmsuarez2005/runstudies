@@ -19,7 +19,7 @@ import { NavbarComponent } from './modules/navbar/navbar.component';
     AppComponent,
     HomeComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
   ],
   imports: [
     MDBBootstrapModule.forRoot(),

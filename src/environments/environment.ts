@@ -12,5 +12,8 @@ export const environment = {
     projectId: "runstudies",
     storageBucket: "runstudies.appspot.com",
     messagingSenderId: "1000328689637"
+  },
+  mongodbConfig: {
+    database: 'mongodb://localhost:27017/runStudies'
   }
 };
