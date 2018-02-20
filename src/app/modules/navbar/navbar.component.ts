@@ -11,8 +11,11 @@ export class NavbarComponent {
 
   constructor() { }
 
-  open(event) {
+  open() {
     this.formModal.show();
-    console.log(this.clickMessage = 'Hello Word');
+  }
+
+  hide() {
+    this.formModal.hide();
   }
 }
